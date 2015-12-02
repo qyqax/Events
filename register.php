@@ -1,6 +1,6 @@
 <?php
-include_once('database/connection.php'); 
-
+require 'core.php';
+require 'connect.php';
 if(loggedin()){
     echo $_SESSION['user'];
     echo ' , you are logged in! <a href="logout.php">Logout</a>';
@@ -52,12 +52,12 @@ if(!loggedin()){
 <html>
     <head>
 
-	    <meta charset="utf-8">
-	    <meta name="description" content="Feup web project">
-	    <meta name="author" content="Robert Greso">
+        <meta charset="utf-8">
+        <meta name="description" content="Feup web project">
+        <meta name="author" content="Robert Greso, Roman Behul, Tomasz Kaczmarek">
 
-        <title>Anti-Radar</title>
-	    <link rel="stylesheet" href="c.css">
+        <title>FEUP Events</title>
+        <link rel="stylesheet" href="c.css">
 
     </head>
 
@@ -65,17 +65,14 @@ if(!loggedin()){
     <body>
 
          <header>
-             <h1 id="hlavnyNadpis">Feup web project</h1>
-             <nav id="navigacia">
+             <h1 id="mainTitle">FEUP Events</h1>
+             <nav id="navigationBar">
 
                 <ul id="menu">
-	               <li><a href="uvod.php">Uvod</a></li>
-	                <li><a href="hra.php">Pridaj</a></li>
-	                <li><a href="prihlasenie.php">LogIn</a></li>
-                    <li class="aktualny"><a href="register.php">Reg</a></li>
-	                <li><a href="tabulka.php">Anti-Radar</a></li>
- 		            <li><a href="help.html">Help</a></li>
-                    <li><a href="kontakt.php">Kontakt</a></li>
+                   <li><a href="login.php">  Log In</a></li>
+                    <li><a href="registration.php">  Registration</a></li>
+                    <li><a href="showEvents.php">  Show Events</a></li>
+                    <li class="aktualny"><a href="createEvent.php">  Create Event</a></li>
                 </ul> 
 
              </nav>
@@ -84,12 +81,15 @@ if(!loggedin()){
         <div>
         <p>For creating new account please fill every field and press register</p>
             <form action="register.php" method="POST">
-    Username:<br><input type="text" name="username" value="<?php echo $username; ?>"><br><br>
+    Username:<br><input type="text" name="username" ><br><br>
     Password:<br><input type="password" name="password" ><br><br>
     Repeat password:<br><input type="password" name="password_again" ><br><br>
-    Name:<br><input type="text" name="firstname" value="<?php echo $username; ?>"><br><br>
-    Surname:<br><input type="text" name="surname" value="<?php echo $username; ?>" ><br><br>
-    <input type="submit" width="20em" value="Registruj">
+    Email:<br><input type="text" name="email"><br><br>
+    Picture:<br><input type="text" name="picture"  ><br><br>
+    Date of birth:<br><input type="text" name="birthdate"  ><br><br>
+    Gender:<br><input type="text" name="gender"  ><br><br>
+
+    <input type="submit" width="20em" value="Registrate">
 </form>
 
     
@@ -99,12 +99,10 @@ if(!loggedin()){
         </div>
   
        <footer>
-	        <p>Created by <a href="kontakt.php">Robert Greso</a></p>
+            <p>Created by <a href="kontakt.php">Robert Greso</a></p>
        </footer>
 
   
     </body>
 
 </html>
-
-
