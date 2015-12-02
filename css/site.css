@@ -1,0 +1,195 @@
+* {
+    font-weight: bold;
+}
+
+#time {
+text-align: right;
+}
+
+table,td,th
+{
+border:1px solid black;
+font-weight: normal;
+background-color: #dbd9d9;
+
+}
+table
+{
+width:100%;
+}
+
+
+
+input[type=text]
+{
+    background-color: #BFBDBD;
+    border:solid 1px #BFBDBD;
+    color: #1F89BA;
+    height: 10px;
+    margin-left: 6em;
+    padding: 10px;
+    width: 191px;
+}
+
+input[type=text] #mail
+{
+    background-color: #BFBDBD;
+    border:solid 1px #BFBDBD;
+    color: #FF9800;
+    height: 5px;
+    margin-left: 6em;
+    padding: 5px;
+    width: 191px;
+}
+input[type=submit]
+{    margin-left: 6em;
+
+    background-color: #000;
+        border:solid 1px #000;
+
+    color: #000;
+    height: 34px;
+    width: 215px;
+    color: #bbbbbb;
+}
+
+textarea
+{    margin-left: 6em;
+      border:solid 1px #BFBDBD;
+    background-color: #BFBDBD;
+    padding: 10px;
+    color: #FF9800;
+    height: 150px;
+    width: 360px;
+    color: #FF9800;
+    box-shadow:-1px 2px #1F89BA inset;
+}
+
+
+input[type=password]
+{
+    background-color: #BFBDBD;
+    border:solid 1px #BFBDBD;
+    color: #1F89BA;
+    height: 10px;
+    padding:10px;
+    width: 191px;
+    margin-left: 6em;
+    
+}
+
+
+
+textarea #mainTextArea {
+      border:groove 0.4em;
+      display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4em;
+    height: 4em;
+    text-align: center;
+}
+
+
+
+h2 {
+padding: 2px;
+font-family: Domine, Serif;
+
+}
+
+#highlight {
+    font-weight: bold;
+}
+
+p {font-weight: bold;
+font-family: Domine, Serif;
+color: #808080;
+}
+div {
+ position:  relative;
+   
+  text-align: justify;
+  width: 36em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+ 
+}
+
+
+header {
+   position:  relative;
+   height: 200px;
+  text-align: left;
+  width: 36em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer { 
+   border-top: 2px solid #AFAFB1;
+   min-height:50px;
+   margin-top: 350px !important;
+
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #1F89BA;
+}
+a:hover {
+         color: #1F89BA;
+}
+header #navigationBar {
+   position: absolute;
+   top: 100px;
+   width: 100%;
+   border-bottom: 3px solid #AFAFB1;
+   
+
+}
+
+#mainTitle {
+text-align: center;
+font-size: 400%;}
+
+
+#menu {
+         
+   height: 36px;
+   margin: 0;
+   
+   
+}
+
+#menu li {
+   position: relative;
+   list-style: none;
+   height: 36px;
+   margin-left: 13px;
+   float: left;
+}
+
+#menu > li.actual {
+   border-bottom: 6px solid #1F89BA;
+   
+}
+
+
+#menu li a {
+   
+   padding: 0.7em;
+   margin: 0;
+   line-height: 36px;
+	text-decoration: none;
+	font-family: "Open Sans", Sans-Serif;
+	font-weight: bold;
+	font-size: 16px;
+   color: #AFAFB1;	
+}
+
+#menu li:hover > a { color: #1F89BA; }

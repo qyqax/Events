@@ -1,13 +1,28 @@
+
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Events</title>
-    <meta charset="utf-8">
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="description" content="Feup web project">
+        <meta name="author" content="Robert Greso, Roman Behul, Tomasz Kaczmarek">
+
+        <title>FEUP Events</title>
+
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <header>
-      <h1><a href="index.php">Events</a></h1>
-      <a href="login.php">Log in</a>
-      <a href="signin.php">Register</a>
+       <h1 id="mainTitle">FEUP Events</h1>
+             <nav id="navigationBar">
+
+                <ul id="menu">
+                   <li><a href="login.php">  Log In</a></li>
+                    <li><a href="registration.php">  Registration</a></li>
+                    <li><a href="showEvents.php">  Show Events</a></li>
+                    <li class="aktualny"><a href="createEvent.php">  Create Event</a></li>
+                </ul> 
+
+             </nav>
+
     </header>
