@@ -2,7 +2,8 @@
 ob_start();
 session_start();
 $current_file=$_SERVER['SCRIPT_NAME'];
-$http_referer=$_SERVER['HTTP_REFERER'];
+//$http_referer=$_SERVER['HTTP_REFERER'];
+
 function loggedin(){
     
     if(isset($_SESSION['user_id']) && !empty($_SESSION['user_id'])){
@@ -11,4 +12,8 @@ function loggedin(){
         return false;
     }
 }
+
+ function generateUniqueId() {
+      return bin2hex(openssl_random_pseudo_bytes(8)) . uniqid();
+    }
 ?>

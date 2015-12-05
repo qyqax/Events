@@ -1,4 +1,4 @@
-
+<?php include_once('core.php');?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -18,11 +18,12 @@
 
                 <ul id="menu">
                    <li><a href="login.php">  Log In</a></li>
-                    <li><a href="registration.php">  Registration</a></li>
+                    <li><a href="register.php">  Registration</a></li>
                     <li><a href="showEvents.php">  Show Events</a></li>
                     <li class="aktualny"><a href="createEvent.php">  Create Event</a></li>
                 </ul> 
 
              </nav>
-
+              
+              <div>Hello,<?=$_SESSION['username']?></div>
     </header>

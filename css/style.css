@@ -18,6 +18,18 @@ table
 width:100%;
 }
 
+label{
+  float: left;
+}
+
+input {
+  float: left;
+}
+
+#input_field {
+  padding: 10px;
+  background-color: yellow;
+}
 
 
 input[type=text]
@@ -193,3 +205,8 @@ font-size: 400%;}
 }
 
 #menu li:hover > a { color: #1F89BA; }
+
+#inputfield {
+  padding: 10px;
+  background-color: yellow;
+}
