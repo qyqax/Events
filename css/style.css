@@ -1,6 +1,5 @@
 * {
-    
-    font-family: "HelveticaNeue-Light";
+    font-weight: bold;
 }
 
 body{
@@ -52,29 +51,23 @@ input[type=text]
     background-color: #BFBDBD;
     border:solid 1px #BFBDBD;
     color: #1F89BA;
-    height: 7px;
+    height: 10px;
     margin-left: 6em;
     padding: 10px;
     width: 191px;
-            font-size: 110%;
-
 }
 
-input[type=password]
+input[type=text] #mail
 {
     background-color: #BFBDBD;
     border:solid 1px #BFBDBD;
-    color: #1F89BA;
-    height: 7px;
-                font-size: 110%;
-    padding:10px;
-    width: 191px;
+    color: #FF9800;
+    height: 5px;
     margin-left: 6em;
-    
+    padding: 5px;
+    width: 191px;
 }
-
 input[type=submit]
-
 {    
   
  
@@ -83,20 +76,20 @@ input[type=submit]
   margin-left: 175px;
     width: 215px;
 
-{    margin-left: 5.5em;
-
-    background-color: #000;
-        border:solid 0px #000;
-        font-size: 120%;
-    color: #000;
-    height: 30px;
-    width: 214px;
-    color: #bbbbbb;
-}
-
 }
 
 
+input[type=password]
+{
+    background-color: #BFBDBD;
+    border:solid 1px #BFBDBD;
+    color: #1F89BA;
+    height: 10px;
+    padding:10px;
+    width: 191px;
+    margin-left: 6em;
+    
+}
 
 
 
@@ -114,14 +107,16 @@ textarea #mainTextArea {
 
 h2 {
 padding: 2px;
+font-family: Domine, Serif;
 
 }
 
 #highlight {
-
+    font-weight: bold;
 }
 
-p {
+p {font-weight: bold;
+font-family: Domine, Serif;
 color: #808080;
 }
 
@@ -145,6 +140,7 @@ footer {
 }
 
 a {
+    font-weight: bold;
     text-decoration: none;
     color: #1F89BA;
 }
@@ -163,12 +159,8 @@ header #navigationBar {
 #mainTitle {
 text-align: center;
 font-size: 400%;
-<<<<<<< HEAD
 color: #AD2F2B;
 }
-=======
-font-family: "HelveticaNeue-Light";}
->>>>>>> origin/master
 
 
 #menu {
@@ -183,7 +175,7 @@ font-family: "HelveticaNeue-Light";}
    position: relative;
    list-style: none;
    height: 36px;
-   margin-left: 2px;
+   margin-left: 13px;
    float: left;
 }
 
@@ -198,19 +190,19 @@ font-family: "HelveticaNeue-Light";}
    padding: 0.7em;
    margin: 0;
    line-height: 36px;
-  text-decoration: none;
-  font-size: 20px;
-   color: #AFAFB1;  
+	text-decoration: none;
+	font-family: "Open Sans", Sans-Serif;
+	font-weight: bold;
+	font-size: 16px;
+   color: #AFAFB1;	
 }
 
 #menu li:hover > a { color: #1F89BA; }
 
 .inputfield {
   padding: 10px;
-<<<<<<< HEAD
  
 }
-
 
 
 .action_btn{
@@ -307,12 +299,12 @@ h2,h4{
 }
 
 .search{
-  margin-top: 10px!important;
-  padding: 10px!important;
-  position: relative!important;
-  top:10px!important;
-  float: right!important;
-  cursor: pointer!important;
+  margin-top: 10px;
+  padding: 10px;
+  position: relative;
+  top:10px;
+  float: right;
+  cursor: pointer;
 
 }
 .comment{
@@ -325,6 +317,5 @@ h2,h4{
 
 .comment_content{
   margin: 10px auto ;
-  background-color: #CEE7FF;   
+  background-color: #9BBEF8;   
 }
-
