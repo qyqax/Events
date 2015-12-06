@@ -1,5 +1,6 @@
 * {
-    font-weight: bold;
+    
+    font-family: "HelveticaNeue-Light";
 }
 
 #time {
@@ -37,31 +38,36 @@ input[type=text]
     background-color: #BFBDBD;
     border:solid 1px #BFBDBD;
     color: #1F89BA;
-    height: 10px;
+    height: 7px;
     margin-left: 6em;
     padding: 10px;
     width: 191px;
+            font-size: 110%;
+
 }
 
-input[type=text] #mail
+input[type=password]
 {
     background-color: #BFBDBD;
     border:solid 1px #BFBDBD;
-    color: #FF9800;
-    height: 5px;
-    margin-left: 6em;
-    padding: 5px;
+    color: #1F89BA;
+    height: 7px;
+                font-size: 110%;
+    padding:10px;
     width: 191px;
+    margin-left: 6em;
+    
 }
+
 input[type=submit]
-{    margin-left: 6em;
+{    margin-left: 5.5em;
 
     background-color: #000;
-        border:solid 1px #000;
-
+        border:solid 0px #000;
+        font-size: 120%;
     color: #000;
-    height: 34px;
-    width: 215px;
+    height: 30px;
+    width: 214px;
     color: #bbbbbb;
 }
 
@@ -78,17 +84,6 @@ textarea
 }
 
 
-input[type=password]
-{
-    background-color: #BFBDBD;
-    border:solid 1px #BFBDBD;
-    color: #1F89BA;
-    height: 10px;
-    padding:10px;
-    width: 191px;
-    margin-left: 6em;
-    
-}
 
 
 
@@ -106,16 +101,14 @@ textarea #mainTextArea {
 
 h2 {
 padding: 2px;
-font-family: Domine, Serif;
 
 }
 
 #highlight {
-    font-weight: bold;
+
 }
 
-p {font-weight: bold;
-font-family: Domine, Serif;
+p {
 color: #808080;
 }
 div {
@@ -149,7 +142,6 @@ footer {
 }
 
 a {
-    font-weight: bold;
     text-decoration: none;
     color: #1F89BA;
 }
@@ -167,7 +159,8 @@ header #navigationBar {
 
 #mainTitle {
 text-align: center;
-font-size: 400%;}
+font-size: 400%;
+font-family: "HelveticaNeue-Light";}
 
 
 #menu {
@@ -182,7 +175,7 @@ font-size: 400%;}
    position: relative;
    list-style: none;
    height: 36px;
-   margin-left: 13px;
+   margin-left: 2px;
    float: left;
 }
 
@@ -197,11 +190,9 @@ font-size: 400%;}
    padding: 0.7em;
    margin: 0;
    line-height: 36px;
-	text-decoration: none;
-	font-family: "Open Sans", Sans-Serif;
-	font-weight: bold;
-	font-size: 16px;
-   color: #AFAFB1;	
+  text-decoration: none;
+  font-size: 20px;
+   color: #AFAFB1;  
 }
 
 #menu li:hover > a { color: #1F89BA; }
