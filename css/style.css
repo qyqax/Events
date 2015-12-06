@@ -74,7 +74,7 @@ input[type=password]
 }
 
 input[type=submit]
-<<<<<<< HEAD
+
 {    
   
  
@@ -82,7 +82,7 @@ input[type=submit]
 
   margin-left: 175px;
     width: 215px;
-=======
+
 {    margin-left: 5.5em;
 
     background-color: #000;
@@ -93,7 +93,6 @@ input[type=submit]
     width: 214px;
     color: #bbbbbb;
 }
->>>>>>> origin/master
 
 }
 
@@ -328,7 +327,4 @@ h2,h4{
   margin: 10px auto ;
   background-color: #CEE7FF;   
 }
-=======
-  background-color: yellow;
-}
->>>>>>> origin/master
+
