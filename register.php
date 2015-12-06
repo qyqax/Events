@@ -101,14 +101,14 @@ if(!loggedin()){
             <input style="margin-left:83px" type="password" name="password" >
             <div style="clear:both"></div>
         </div>
-<<<<<<< HEAD
+
         <div class='inputfield'>
             <label>Repeat password:</label>
             <input style="margin-left:33px" type="password" name="password_again" >
-=======
+
         <div>
             <label>Repeat it:</label><input type="password" name="password_again" >
->>>>>>> origin/master
+
             <div style="clear:both"></div>
         </div>
         <div class='inputfield'>
