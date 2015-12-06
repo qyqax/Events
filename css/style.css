@@ -1,5 +1,6 @@
 * {
-    font-weight: bold;
+    
+    font-family: "HelveticaNeue-Light";
 }
 
 body{
@@ -51,23 +52,29 @@ input[type=text]
     background-color: #BFBDBD;
     border:solid 1px #BFBDBD;
     color: #1F89BA;
-    height: 10px;
+    height: 7px;
     margin-left: 6em;
     padding: 10px;
     width: 191px;
+            font-size: 110%;
+
 }
 
-input[type=text] #mail
+input[type=password]
 {
     background-color: #BFBDBD;
     border:solid 1px #BFBDBD;
-    color: #FF9800;
-    height: 5px;
-    margin-left: 6em;
-    padding: 5px;
+    color: #1F89BA;
+    height: 7px;
+                font-size: 110%;
+    padding:10px;
     width: 191px;
+    margin-left: 6em;
+    
 }
+
 input[type=submit]
+<<<<<<< HEAD
 {    
   
  
@@ -75,21 +82,22 @@ input[type=submit]
 
   margin-left: 175px;
     width: 215px;
+=======
+{    margin-left: 5.5em;
+
+    background-color: #000;
+        border:solid 0px #000;
+        font-size: 120%;
+    color: #000;
+    height: 30px;
+    width: 214px;
+    color: #bbbbbb;
+}
+>>>>>>> origin/master
 
 }
 
 
-input[type=password]
-{
-    background-color: #BFBDBD;
-    border:solid 1px #BFBDBD;
-    color: #1F89BA;
-    height: 10px;
-    padding:10px;
-    width: 191px;
-    margin-left: 6em;
-    
-}
 
 
 
@@ -107,16 +115,14 @@ textarea #mainTextArea {
 
 h2 {
 padding: 2px;
-font-family: Domine, Serif;
 
 }
 
 #highlight {
-    font-weight: bold;
+
 }
 
-p {font-weight: bold;
-font-family: Domine, Serif;
+p {
 color: #808080;
 }
 
@@ -140,7 +146,6 @@ footer {
 }
 
 a {
-    font-weight: bold;
     text-decoration: none;
     color: #1F89BA;
 }
@@ -159,8 +164,12 @@ header #navigationBar {
 #mainTitle {
 text-align: center;
 font-size: 400%;
+<<<<<<< HEAD
 color: #AD2F2B;
 }
+=======
+font-family: "HelveticaNeue-Light";}
+>>>>>>> origin/master
 
 
 #menu {
@@ -175,7 +184,7 @@ color: #AD2F2B;
    position: relative;
    list-style: none;
    height: 36px;
-   margin-left: 13px;
+   margin-left: 2px;
    float: left;
 }
 
@@ -190,17 +199,16 @@ color: #AD2F2B;
    padding: 0.7em;
    margin: 0;
    line-height: 36px;
-	text-decoration: none;
-	font-family: "Open Sans", Sans-Serif;
-	font-weight: bold;
-	font-size: 16px;
-   color: #AFAFB1;	
+  text-decoration: none;
+  font-size: 20px;
+   color: #AFAFB1;  
 }
 
 #menu li:hover > a { color: #1F89BA; }
 
 .inputfield {
   padding: 10px;
+<<<<<<< HEAD
  
 }
 
@@ -320,3 +328,7 @@ h2,h4{
   margin: 10px auto ;
   background-color: #CEE7FF;   
 }
+=======
+  background-color: yellow;
+}
+>>>>>>> origin/master
