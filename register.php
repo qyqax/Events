@@ -14,7 +14,7 @@ include_once('database/connection.php');
 if(loggedin()){
     echo $_SESSION['user'];
     echo ' , you are logged in! <a href="logout.php">Logout</a>';
-}else{echo "Please log in.";}
+}
 if(!loggedin()){
     
     if(
@@ -68,6 +68,7 @@ if(!loggedin()){
                    
                     if($dbh->query($query)){
                         $_SESSION['username']=$username;
+                        $_SESSION['user_id']=$id;
                         header('Location: index.php');
                     }else{echo "";
                         echo " | Sorry, error occurs, try again later.";
@@ -86,32 +87,38 @@ if(!loggedin()){
 }
 ?>
 
-<div>
+<div class="register">
         <p>For creating new account please fill every field and press register</p>
     
     <form action="register.php" method="POST">
-        <div id='inputfield'>
-            <label>Username:</label> <input type="text" name="username" >
+        <div class='inputfield'>
+            <label>Username:</label> 
+            <input type="text" name="username" >
             <div style="clear:both"></div>
         </div>
-        <div>
-            <label>Password:</label><input type="password" name="password" >
+        <div class='inputfield'>
+            <label>Password:</label>
+            <input style="margin-left:83px" type="password" name="password" >
             <div style="clear:both"></div>
         </div>
-        <div>
-            <label>Repeat password:</label><input type="password" name="password_again" >
+        <div class='inputfield'>
+            <label>Repeat password:</label>
+            <input style="margin-left:33px" type="password" name="password_again" >
             <div style="clear:both"></div>
         </div>
-        <div>
-            <label>Email:</label><input type="text" name="email">
+        <div class='inputfield'>
+            <label>Email:</label>
+            <input style="margin-left:110px" type="text" name="email">
             <div style="clear:both"></div>
         </div>
-        <div>
-            <label>Date of birth:</label><input type="text" name="birthdate"  >
+        <div class='inputfield'>
+            <label>Date of birth:</label>
+            <input style="margin-left:63px" type="text" name="birthdate"  >
             <div style="clear:both"></div>
         </div>
-        <div>
-            <label>Gender:</label><input type="text" name="gender"  >
+        <div class='inputfield'>
+            <label>Gender:</label>
+            <input style="margin-left:100px" type="text" name="gender"  >
             <div style="clear:both"></div>       
         </div>
         
@@ -122,7 +129,7 @@ if(!loggedin()){
         
         
 
-    <input type="submit" width="20em" value="Register">
+    <input style="margin-left: 110px" class="action_btn create" type="submit" width="20em" value="Register">
 </form>
 
     
