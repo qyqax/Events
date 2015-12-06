@@ -99,7 +99,7 @@ if(!loggedin()){
             <div style="clear:both"></div>
         </div>
         <div>
-            <label>Repeat password:</label><input type="password" name="password_again" >
+            <label>Repeat it:</label><input type="password" name="password_again" >
             <div style="clear:both"></div>
         </div>
         <div>
