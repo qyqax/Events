@@ -93,7 +93,7 @@ echo '
 <div id="content" class="view_panel" style="display: none">
   <form style="width: auto" action="add_comment.php" method="POST" id="comment">
 
-      <input type="hidden" name="event_id" value=<?=$event["id"]?>>
+      <input type="hidden" name="event_id" value='.$event["id"].' >
       <textarea class="comment" name="content" form="comment"></textarea>
       <button style="margin-left: 5px" type="submit" class="action_btn update view_panel" >PUBLISH</button>
     
